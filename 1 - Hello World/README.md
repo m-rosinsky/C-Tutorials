@@ -116,6 +116,7 @@ int main()
 {
     printf("Hello World!");
 }
+```
 
 Now let's recompile by running that ```gcc``` command from before...
 
