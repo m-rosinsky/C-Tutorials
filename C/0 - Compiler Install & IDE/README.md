@@ -1,4 +1,4 @@
-# C-Tutorials
+# C Compiler Installation and IDE Recommendations
 A compilation of tutorials for the C programming language to use as reference.
 
 To see compilation instructions for different systems, continue reading below! ⬇️
