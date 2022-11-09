@@ -59,7 +59,7 @@ int main()
 }
 ```
 
-And there we go!
+And there we go! Don't forget the ```;``` at the end of the ```printf``` line!
 
 ---
 
