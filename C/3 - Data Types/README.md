@@ -4,7 +4,7 @@ Programming is essentially writing pieces of data into memory for our computer t
 
 However, data can come in different forms. The C programming language has a few native data types built in for us to make use of. These include:
 
-- ```int```: integer data type. Whole numbers both positive, zero, or negative (```32```, ```0```, ```-4```)
+- ```int```: integer data type. Whole numbers positive, zero, or negative (```32```, ```0```, ```-4```)
 - ```float```: any non-whole number typically associated with a decimal point (```0.4```, ```-1.2```, ```0.0```)
 - ```double```: same as a float, but double the size. Used for more precise decimals
 - ```char```: data to hold ONE ASCII character. Always surrounded in single quotes. (```'a'```, ```'b'```, ```'!'```)
