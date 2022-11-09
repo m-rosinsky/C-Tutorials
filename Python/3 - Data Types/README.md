@@ -19,11 +19,15 @@ Integers in python are whole numbers, positive or negative.
 
 Examples include: ```3```, ```0```, and ```-15```
 
+---
+
 ### Doubles
 
 Doubles (also referred to as floats) are numbers containing a decimal point (also referred to as _real_ numbers). These can also be positive or negative.
 
 Examples include: ```-3.0```, ```0.1```, ```-6.2```
+
+---
 
 ### Strings
 
