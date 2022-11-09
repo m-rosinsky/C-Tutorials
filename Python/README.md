@@ -13,12 +13,15 @@ _NOTE_: All tutorials / references will be in python3.
 Most operating systems come with some version of python preinstalled. Depending on your operting system, here are some instructions for installing, or verifying that python is installed:
 
 <ins>Mac/OSX</ins>
-Step-by-step article here: https://docs.python-guide.org/starting/install3/osx/
+
+https://docs.python-guide.org/starting/install3/osx/
 
 <ins>Linux</ins>
+
 https://docs.python-guide.org/starting/install3/linux/
 
 <ins>Windows</ins>
+
 https://phoenixnap.com/kb/how-to-install-python-3-windows
 
 ---
