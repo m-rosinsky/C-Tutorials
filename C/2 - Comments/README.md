@@ -79,3 +79,9 @@ int main()
 ```
 
 ---
+
+### Exercises
+
+Within this folder, check out the file ```exercise_1.c```!
+
+---
