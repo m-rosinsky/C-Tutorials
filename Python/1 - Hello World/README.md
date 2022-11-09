@@ -12,7 +12,7 @@ my_file.py
 
 ### The main function
 
-In python, we can define a ```main``` function to indicate where our program execution should start.
+We can define a ```main``` function to indicate where our program execution should start.
 
 In python, however, the ```main``` function is optional. If a ```main``` function is not provided, program execution will simply start at the top of the file.
 
