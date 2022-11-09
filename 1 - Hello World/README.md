@@ -103,7 +103,7 @@ Essentially, there are tons and tons of C standard library functions that are at
 
 There's some overhead with loading all of those library functions in to every project, especially considering we probably will only end up using a small fraction of them in a given project.
 
-The solution to this was to divide up the library functions, like ```printf``` into separate categorized folders, or header files, that the programmer must include specifically. These folders are divided up typically by functionality.
+The solution to this was to divide up the library functions, like ```printf```, into separate categorized folders, or header files, that the programmer must include specifically. These folders are divided up typically by functionality.
 
 For example, most of the library functions that have to do with the input or output (io) are located in a header called ```stdio.h```. (```.h``` signifies a header, which we'll talk about more in later references)
 
