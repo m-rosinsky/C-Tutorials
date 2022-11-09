@@ -48,6 +48,14 @@ You might recognize that these look like multi-line comments that were discussed
 
 ---
 
+### Booleans
+
+Boolean data types represent something that is either true or false. Python even provides us with the keywords ```True``` and ```False```, which correspond to a boolean data type. Note that these keywords are case sensitive.
+
+In later sections of this repository, we will cover boolean logic, but for now, just know that booleans represent something true or false.
+
+---
+
 ### Declaring variables in Python
 
 We often find that we need to store pieces of data for later use in our program. This can be achieved through variables. To create a variable, we simply write a name for the variable and set it equal to some kind of data:
