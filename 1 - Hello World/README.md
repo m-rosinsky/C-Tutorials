@@ -69,7 +69,7 @@ C is a _compiled_ programming language, meaning it first has to be _compiled_ in
 
 To compile our file, we need to open a terminal window. For windows I would recommend running a Powershell console, and for Mac/Linux, fire up a Terminal window.
 
-Navigate to the directory that our ```.c``` file is located in. In the example below, I saved my file on my Desktop:
+Navigate to the directory that our ```.c``` file is located in. In the example below, I saved my file on my Desktop in a folder called C:
 
 | ![alt text](https://i.imgur.com/k2J1x6u.png "Navigating to the folder with my C file") |
 |:--:|
