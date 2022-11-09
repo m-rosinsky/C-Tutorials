@@ -6,6 +6,8 @@ The place in code from which the data is _created_ to the place where the data's
 
 Therefore, when the lifetime of data ends, this is sometimes referred to as the piece of data _going out of scope_.
 
+---
+
 ### What is a Scope in C?
 
 A scope in C is the start and end point of the program where a certain piece of data is accessible. Outside of this scope, the data is _NOT_ accessible.
