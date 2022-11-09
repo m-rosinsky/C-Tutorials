@@ -34,7 +34,6 @@ int main()
 {
     int x = 5;
 }
-
 // Try to modify x (it has gone out of scope).
 x = 6;
 ```
