@@ -4,7 +4,7 @@ At its core, programming is really just writing data to memory, and then using t
 
 Python provides lots of native data types for us to make use of to achieve whatever task we may need to perform. These data types include (but are not limited to):
 
-- ```integer```: Whole numbers, positive and negative
+- ```integer```: whole numbers, positive and negative
 - ```double```: decimal numbers, positive and negative
 - ```string```: pieces of text typically surrounded in ```"``` or ```'```
 - ```boolean```: data representing true or false statements
