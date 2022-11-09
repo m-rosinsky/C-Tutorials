@@ -54,7 +54,7 @@ In C, it's often necessary to store pieces of data in memory. To do this, we fol
 <datatype> <name> = <value>;
 ```
 
-For example, if we wanted to create an integer name ```x``` and assign it the value ```5```, we can write:
+For example, if we wanted to create an integer named ```x``` and assign it the value ```5```, we can write:
 
 ```C
 int x = 5; // Don't forget the semicolon!
