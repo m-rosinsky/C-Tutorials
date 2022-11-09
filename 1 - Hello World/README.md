@@ -99,7 +99,7 @@ C error messages are notoriously "fun" to decipher. This one esssentially boils 
 
 So why was our ```printf``` function unrecgonized?
 
-Essentially, there are tons and tons of C standard library functions that are at our disposal. So many, in fact, that the designers of the language though it was wasteful to automatically include all the library functions automatically in every file.
+Essentially, there are tons and tons of C standard library functions that are at our disposal. So many, in fact, that the designers of the language though it was wasteful to automatically include all the library functions in every file.
 
 There's some overhead with loading all of those library functions in to every project, especially considering we probably will only end up using a small fraction of them in a given project.
 
