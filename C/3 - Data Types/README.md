@@ -37,7 +37,7 @@ It's not necessary to know how it's stored to use floats and doubles, but it's g
 
 Characters, or ```char``` are used to store a single byte, typically holding an ASCII character.
 
-Each character that can be typed have a number associated with it, and this number is derived from the ASCII table: https://www.asciitable.com/
+All characters have a number associated with it, and this number is derived from the ASCII table: https://www.asciitable.com/
 
 | ![alt text](https://www.asciitable.com/asciifull.gif "Navigating to the folder with my C file") |
 |:--:|
