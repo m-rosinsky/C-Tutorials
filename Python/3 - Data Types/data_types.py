@@ -7,5 +7,5 @@ age = 23
 # Declare a boolean type (True / False)
 is_cool = True
 
-# Declare a double type (decimal)
+# Declare a float type (decimal)
 hours_slept_last_night = 4.5
