@@ -2,7 +2,7 @@
 
 Comments in python are used to provide documentation for ourselves as developers, or for others that may be reading / editing our code.
 
-When working with a team, it's always a big help to those working with you to provide documentation on how your program works, to save the time in reviewing your code. This is often done with comments!
+When working with a team, it's always a big help to those working with you to provide documentation on how your program works, to save them time in reviewing your code. This is often done with comments!
 
 ---
 
