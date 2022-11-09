@@ -85,6 +85,6 @@ And when run, this program outputs:
 5
 ```
 
-Note that we don't surround ```x``` in quotes. If we did, the ```print``` statement would literally output ```x``` rather than the value of ```x```, ```5```. We only use quotes when we want text to be printed.
+Note that we don't surround ```x``` in quotes. If we did, the ```print``` statement would literally output ```x``` rather than the value of ```x```, ```5```. We only use quotes when we want _text_ to be printed.
 
 ---
