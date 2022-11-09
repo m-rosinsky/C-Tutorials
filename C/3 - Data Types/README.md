@@ -15,7 +15,7 @@ However, data can come in different forms. The C programming language has a few 
 
 Integers, or ```int``` are used for any whole numbers, positive or negative.
 
-They typically take up 4 bytes of space, but it ultimately depends on the system definitions. Check out the ```sizeof``` section below for more info.
+They typically take up 4 bytes of space, but it ultimately depends on the system definitions.
 
 Examples include: ```0```, ```112```, ```-19```.
 
