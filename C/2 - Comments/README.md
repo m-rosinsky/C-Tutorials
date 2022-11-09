@@ -6,6 +6,8 @@ They are completely ignored by the actual compiler, and have no effect on progra
 
 Comments are often used to leave notes for ourselves or other developers, providing explanation for pieces of code.
 
+---
+
 ### Single Line Comments
 
 Single line comments are denoted by the ```//``` in C.
