@@ -3,8 +3,9 @@
 // TODO: Add any additional includes needed here.
 
 /*
-TODO: Dynamically allocate enough space
-to store a copy of s on the heap.
+TODO: Dynamically allocate a string
+with enough space to hold the contents
+of s.
 
 Then copy the contents of s into the new
 string and return it.
