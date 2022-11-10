@@ -209,3 +209,7 @@ int main()
 ```
 
 ---
+
+### Exercises
+
+Check out the exercises within this folder for some extra practice!
