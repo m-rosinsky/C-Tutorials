@@ -1,4 +1,5 @@
-// TODO: Write you includes here
+#include <stdio.h>
+#include <string.h>
 
 /*
 This function returns the length of a string.
