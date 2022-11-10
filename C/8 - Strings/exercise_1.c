@@ -12,21 +12,22 @@ size_t my_strlen(char * s)
 }
 
 // Do not modify any code below this point
+#define NUM_INPUTS 4
 int main()
 {
     // Test cases.
-    char ** inputs = {"hello", "string with spaces", "", "!$!@@!"};
-    size_t num_inputs = 4;
-  
+    char* inputs[NUM_INPUTS] = {"hello", "string with spaces", "", "!$!@@!"};
+    size_t num_inputs = NUM_INPUTS;
+
     for (size_t i = 0; i < num_inputs; i++)
     {
         if (my_strlen(inputs[i]) == strlen(inputs[i]))
         {
-            printf("Test Case %i Passed!\n", i);
+            printf("Test Case %lu Passed!\n", i);
         }
         else
         {
-            printf("Test Case %i Failed! (%s)\n", i, inputs[i]);
+            printf("Test Case %lu Failed! (%s)\n", i, inputs[i]);
         }
     }
 }
