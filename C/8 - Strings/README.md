@@ -195,7 +195,7 @@ This also has applications to things other than strings, for example integer arr
 
 int main()
 {
-    int * arr_1 = {1, 2, 3, 4, 5};
+    int arr_1[5] = {1, 2, 3, 4, 5};
     int arr_2[3];
     
     /*
