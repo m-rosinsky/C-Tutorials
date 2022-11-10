@@ -105,7 +105,7 @@ Some of the functions this library contains are (not limited to):
 
 ### Strlen
 
-The strlen function in C returns the length of a string. This goes through the string, counting the size, until it reaches the null terminator.
+The ```strlen``` function in C returns the length of a string. This goes through the string, counting the size, until it reaches the null terminator.
 
 Note that the size it returns does NOT include the null terminator.
 
@@ -131,7 +131,7 @@ hello is 5 characters long
 
 ### Strcmp
 
-Strcmp compares two strings. It returns 0 if the strings are equal, or nonzero if they are not equal.
+```strcmp``` compares two strings. It returns 0 if the strings are equal, or nonzero if they are not equal.
 
 ```C
 #include <stdio.h>
@@ -159,3 +159,53 @@ Strings are NOT equal!
 ---
 
 ### Memcpy
+
+The ```memcpy``` function copies a specified number of bytes from one location in memory to another. It's parameters are:
+
+```C
+memcpy(dst_addr, src_addr, num_bytes);
+```
+
+This function has applications outside of just strings, being that it can copy any kind of memory.
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+     char * string_1 = "Hello, World!";
+     
+     char string_2[5]; // Create a new string of fixed length (5).
+     
+     // Copy the first 5 bytes of string_1 to string_2
+     memcpy(string_2, string_1, 5);
+     
+     printf("%s\n", string_2);
+}
+```
+```
+Hello
+```
+
+This also has applications to things other than strings, for example integer arrays.
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int * arr_1 = {1, 2, 3, 4, 5};
+    int arr_2[3];
+    
+    /*
+    Copy the first 3 elements of arr_1 to arr_2.
+    
+    We use sizeof(int) to get the number of bytes in
+    a single int, and then multiply it by 3
+    */
+    memcpy(arr_2, arr_1, 3 * sizeof(int));
+}
+```
+
+---
