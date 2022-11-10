@@ -210,6 +210,40 @@ int main()
 
 ---
 
+### Memset
+
+```memset``` sets a given block of memory to a specified value. The parameters are:
+
+```C
+memset(addr, value, num_bytes);
+```
+
+One instance this can be used in is "zeroing out" an array. For example:
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    int arr[3] = {1,2,3};
+    
+    // Set all elements of arr to 0 with memset.
+    memset(arr, 0, 3 * sizeof(int));
+    
+    // Print the array.
+    for (size_t i = 0; i < 3; i++)
+    {
+       printf("%d ", arr[i]);
+    }
+}
+```
+```
+0 0 0
+```
+
+---
+
 ### Exercises
 
 Check out the exercises within this folder for some extra practice!
