@@ -74,7 +74,7 @@ int main()
 Hello, World!
 ```
 
-The ```%s``` format specifier will the the compiler to print through the string character by character, until it reaches the null terminator.
+The ```%s``` format specifier will tell the compiler to print through the string character by character, until it reaches the null terminator.
 
 ---
 
