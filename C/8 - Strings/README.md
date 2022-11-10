@@ -98,6 +98,7 @@ Some of the functions this library contains are (not limited to):
 
 - ```strlen``` - get the length of a string
 - ```strcmp``` - compare two strings together
+- ```strcpy``` - copy one string's contents into another.
 - ```memcpy``` - copy memory contents from one place to another
 - ```memset``` - set bytes in a location in memory to a given value
 
@@ -154,6 +155,27 @@ int main()
 ```
 ```
 Strings are NOT equal!
+```
+
+---
+
+### Strcpy
+
+```strcpy``` copies the contents of one string (including the null terminator) into another string.
+
+_NOTE_: If the destination string of ```strcpy``` is not large enough, a buffer overflow occurs. This is a large security vulnerability, so this function should be avoided all together in favor of ```strncpy```, which lets you specify a maximum number of bytes to copy, or ```memcpy```.
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+     char string_1 = "word";
+     char string_2 = "bigger word";
+     
+     strcpy(string_1, string_2); // BAD: BUFFER OVERFLOW. string_1 is not big enough.
+}
 ```
 
 ---
