@@ -130,3 +130,25 @@ int main()
 ```
 
 The program prints out 65, since it interprets ```c``` as an integer, and ```'A'``` has an ASCII value of 65.
+
+---
+
+### Escape Sequences
+
+There are certain characters that we can print out that aren't necessarily on the standard keyboard.
+
+We've already made use of one, the new line character. If we wanted to print a new line, there isn't a key on our keyboard for it, so we use these things called escape sequences.
+
+Escape sequences all start with the ```\``` character, the one above the ```enter``` key.
+
+The character that follows dictates the type of escape sequence. For example, a new line is ```\n```.
+
+The full list of escape sequences can be found here: https://en.wikipedia.org/wiki/Escape_sequences_in_C
+
+---
+
+### Exercises
+
+There are no attached exercise files for this chapter, but try playing around with format specifiers and escape sequences!
+
+---
