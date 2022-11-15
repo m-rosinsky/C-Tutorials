@@ -121,3 +121,49 @@ Since the condition is ```true```, the ```printf``` statement will execute.
 _NOTE_: the ```(``` ```)``` that surround the condition in C are _NOT_ optional. The compiler will throw an error if they are missing.
 
 ---
+
+### Else Statements
+
+An ```else``` block can be attached to an ```if``` statement. This will be executed if the given condition is _NOT_ true.
+
+The syntax is as follows:
+
+```C
+if (condition)
+{
+    // do stuff when condition is true
+}
+else
+{
+    // do stuff when condition is false
+}
+```
+
+For example, we can print whether someone is old enough to vote or not based on a given age:
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    int age = 16;
+    
+    if (age >= 18)
+    {
+        printf("You are old enough to vote\n");
+    }
+    else
+    {
+        printf("You are NOT old enough to vote\n");
+    }
+}
+```
+```
+You are NOT old enough to vote
+```
+
+Since the condition evaluates to ```false```, the code within the ```if``` block is skipped, and the code within the ```else``` block is executed instead.
+
+This is the core of decision making in ```C```.
+
+---
