@@ -14,18 +14,6 @@ output  -> ""
 """
 def print_consonants(s):
     # TODO: WRITE CODE HERE
-    
-# DO NOT MODIFY CODE BELOW THIS POINT
-def main():
-    """
-This function should take in one integer.
-
-If the integer is negative, print "Negative"
-If the integer is zero, print "Zero"
-If the integer is positive, print "Positive"
-"""
-def eval_int(n):
-    # TODO: WRITE CODE HERE
   
 # DO NOT MODIFY CODE BELOW THIS POINT
 def main():
