@@ -10,7 +10,7 @@ Before we can talk about different control structures in Python, we first have t
 
 ### Boolean Logic
 
-Boolean logic is a fancy way of determining whether something is ```True``` or ```False```.
+Boolean logic is a fancy term for the study of whether something is ```True``` or ```False```.
 
 Python comes with a number of built-in boolean operators, which are used to determine the relationship between two pieces of data.
 
