@@ -30,7 +30,7 @@ def main():
     print("\nTest 3:")
     print("Expected Output:\n")
     print("Your Output:")
-    eval_int("aueiaoiuaeioue")
+    print_consonants("aueiaoiuaeioue")
   
 if __name__=='__main__':
     main()
