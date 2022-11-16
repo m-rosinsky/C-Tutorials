@@ -126,9 +126,9 @@ We can use this to check for multiple conditions, as such:
 
 ```python3
 if condition1:
-    block1:
+    block1
 elif condition2:
-    block2:
+    block2
 elif condition3:
     block3
 ```
@@ -139,9 +139,9 @@ We can also optionally tack on an ```else``` block at the end to act as a fall t
 
 ```python3
 if condition1:
-    block1:
+    block1
 elif condition2:
-    block2:
+    block2
 else:
     block3
 ```
