@@ -50,7 +50,7 @@ if condition:
 
 The ```:``` symbol will come after a condition.
 
-In python, code blocks are determined by their indentation level. So the fact that ```statements``` is indented in the above code, shows that it will only be executed if the condition is ```True```.
+In Python, indentation is not just for show! The fact that ```statements``` are indented shows that it falls under the ```if``` statement. If it were not indented, the code would not be a part of the ```if``` block.
 
 For example:
 
