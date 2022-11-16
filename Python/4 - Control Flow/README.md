@@ -234,7 +234,7 @@ For example, if we want to omit the value ```5``` from our countdown, we can use
 ```python3
 n = 10
 
-while n >= 0:
+while n > 0:
     n -= 1
     if n == 5:
         continue
