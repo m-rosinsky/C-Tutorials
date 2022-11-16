@@ -81,7 +81,7 @@ x is less than 10
 Done executing!
 ```
 
-Notice that the second ```print``` statement is _NOT_ indented! This means that it is not part of the ```if``` block, and it will execute regardless of if the ```if``` condition is ```True``` or not.
+Notice that the second ```print``` statement is _NOT_ indented! This means that it is not part of the ```if``` block, and it will execute regardless of if the condition is ```True``` or not.
 
 ---
 
