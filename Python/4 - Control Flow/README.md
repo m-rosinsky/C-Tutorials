@@ -166,6 +166,6 @@ You can vote!
 
 Since the first condition was ```False```, we look at the ```elif``` condition. This one is ```True```, so we execute it's code.
 
-```else``` does not take a condition, since it will always execute if the above conditions are all ```False```.
+Note that ```else``` does not take a condition, since it will always execute if the above conditions are all ```False```.
 
 ---
