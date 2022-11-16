@@ -227,7 +227,7 @@ We can see this produces the same output as before, but we use a ```break``` sta
 
 ---
 
-A continue statements works similarly to ```break```, but instead of exiting the loop, it automatically goes back to the top of the loop.
+A ```continue``` statement works similarly to ```break```, but instead of exiting the loop, it automatically goes back to the top of the loop.
 
 For example, if we want to omit the value ```5``` from our countdown, we can use a ```continue```:
 
