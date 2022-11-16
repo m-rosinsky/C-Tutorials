@@ -22,6 +22,7 @@ These are:
 - ```>=```: greater than or equal to
 - ```<``` : less than
 - ```<=```: less than or equal to
+- ```in```: inclusion in a group
 
 Since these are boolean operators, the result will always be either ```True``` or ```False```. For example:
 
