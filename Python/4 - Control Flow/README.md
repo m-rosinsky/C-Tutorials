@@ -213,10 +213,11 @@ n = 10
 
 while True:         # loop infinitely
     print(n, end=" ")
-    n -= 1
     
     if n == 0:
         break
+        
+    n -= 1
 ```
 ```
 10 9 8 7 6 5 4 3 2 1 0
