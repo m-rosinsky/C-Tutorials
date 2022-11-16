@@ -169,3 +169,146 @@ Since the first condition was ```False```, we look at the ```elif``` condition. 
 Note that ```else``` does not take a condition, since it will always execute if the above conditions are all ```False```.
 
 ---
+
+### While Loops
+
+While loops are used to repeat a certain block of code as long as a certain condition remains ```True```.
+
+The syntax is as follows:
+
+```python3
+while condition:
+    statements
+```
+
+The code inside ```statements``` will loop repeatedly while ```condition``` is True. When condition is not true, the loop will exit after completing.
+
+Here is an example to count down to zero from a certain number:
+
+```python3
+n = 10
+
+while n >= 0:
+    print(n, end=" ")   # print will print a " " at the end, rather than a new line
+    n -= 1              # Set n to itself - 1
+```
+```
+10 9 8 7 6 5 4 3 2 1 0
+```
+
+While the condition ```n >= 0``` remains ```True```, the loop will keep repeating. As soon as ```n``` becomes ```-1```, the condition is no longer ```True```, and the loop will exit.
+
+---
+
+### Break and Continue
+
+```break``` and ```continue``` are keywords that we can use within loops to give us greater control.
+
+If a ```break``` line is entered, the loop will exit regardless of if the condition is still ```True```.
+
+For example, we can rewrite the countdown program from before:
+
+```python3
+n = 10
+
+while True:         # loop infinitely
+    print(n, end=" ")
+    n -= 1
+    
+    if n == 0:
+        break
+```
+```
+10 9 8 7 6 5 4 3 2 1 0
+```
+
+We can see this produces the same output as before, but we use a ```break``` statement instead.
+
+---
+
+A continue statements works similarly to ```break```, but instead of exiting the loop, it automatically goes back to the top of the loop.
+
+For example, if we want to omit the value ```5``` from our countdown, we can use a ```continue```:
+
+```python3
+n = 10
+
+while n >= 0:
+    n -= 1
+    if n == 5:
+        continue
+    print(n, end=" ")
+```
+```
+9 8 7 6 4 3 2 1 0
+```
+
+Notice that 5 is not printed, since we hit a ```continue``` block before the ```print``` statement.
+
+---
+
+### For Loops
+
+For loops can be used in two main different ways. Both involve a local variable that steps through something iterable. For example, each item in a list, or each character in a string.
+
+Here's an example of stepping through each letter in a string:
+
+```python3
+name = "mike"
+
+for letter in name:
+    print(letter, end=" ")
+```
+```
+m i k e
+```
+
+Each iteration of the loop, ```letter``` takes on the value of each character in the string sequentially.
+
+For example, in the first iteration, ```letter``` will be set to ```m``` since it is the first character in the string. Then it will be ```i```, and so on until we reach the end of the string.
+
+---
+
+### Range
+
+We can also use a for loop to step through a range of numbers with python's built-in ```range``` function.
+
+The ```range``` function can take 1-3 parameters.
+
+If we use 1 parameter, the range will start at zero and count up to the parameter (but not including) by 1 each time:
+
+```python3
+for i in range(5):
+    print(i, end=" ")
+```
+```
+0 1 2 3 4
+```
+
+Notice how we start at zero and go up to 5, but do not reach 5.
+
+If we use two parameters, it will inclusively start at the first parameter, and count to the second parameter without reaching it:
+
+```python3
+for i in range(1, 10):
+    print(i, end=" ")
+```
+```
+1 2 3 4 5 6 7 8 9
+```
+
+We include the start parameter, 1, but we don't include the end parameter, 10.
+
+If we use 3 parameters in the ```range``` function, the third parameter will function as the step. Meaning we increment by that amount each iteration.
+
+```python3
+for i in range(0, 9, 2):
+    print(i, end=" ")
+```
+```
+0 2 4 6 8
+```
+
+We can see that we start at zero, and increment by 2 each time, until we reach or exceed the end parameter (9).
+
+---
