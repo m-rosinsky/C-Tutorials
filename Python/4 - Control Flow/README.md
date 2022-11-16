@@ -119,3 +119,53 @@ Since the condition ```18 >= 21``` is ```False```, the code within the ```if``` 
 ---
 
 ### Elif blocks
+
+To add another layer of complexity to ```if``` statements, we can add multiple conditions to the same block using ```elif``` blocks. This is short for saying _else if_ in english.
+
+We can use this to check for multiple conditions, as such:
+
+```python3
+if condition1:
+    block1:
+elif condition2:
+    block2:
+elif condition3:
+    block3
+```
+
+We can use as many ```elif``` blocks as we need to!
+
+We can also optionally tack on an ```else``` block at the end to act as a fall through. If _all_ of the above conditions fail, the ```else``` block will execute.
+
+```python3
+if condition1:
+    block1:
+elif condition2:
+    block2:
+else:
+    block3
+```
+
+Important to note is that only one of the code blocks will execute per ```if``` statement. Meaning that as soon as a condition is found to be ```True```, its respective block will execute, and no others within the ```if``` statement.
+
+Here's an example:
+
+```python3
+age = 19
+
+if age >= 25:
+    print("You can rent a car and vote!")
+elif age >= 18:
+    print("You can vote!")
+else:
+    print("Wait a few years")
+```
+```
+You can vote!
+```
+
+Since the first condition was ```False```, we look at the ```elif``` condition. This one is ```True```, so we execute it's code.
+
+```else``` does not take a condition, since it will always execute if the above conditions are all ```False```.
+
+---
